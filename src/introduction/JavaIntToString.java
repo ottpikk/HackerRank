@@ -1,12 +1,9 @@
-import com.sun.jdi.Value;
+package introduction;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class JavaIntToString {
     public static void main(String[] args) {
-
-
         try {
             Scanner in = new Scanner(System.in);
             int n = in .nextInt();
@@ -23,6 +20,5 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Unsuccessful Termination!!");
         }
-
     }
 }

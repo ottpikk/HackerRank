@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavaStaticInitializerBlock {
     public static void main(String[] args) {
-        
+
         Scanner scanner = new Scanner(System.in);
         int breadth = scanner.nextInt();
         int height = scanner.nextInt();
